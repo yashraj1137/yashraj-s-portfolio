@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashraj Darandale - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+        body {
+            background: radial-gradient(circle, #0a0a0a, #1a1a1a);
+            color: #fff;
+            font-family: 'Rajdhani', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            position: relative;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            color: cyan;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 0 25px cyan;
+            animation: glow 1.5s infinite alternate;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-top: 30px;
+        }
+        
+        .section {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        
+        h2 {
+            color: cyan;
+            border-bottom: 2px solid cyan;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 22px;">Yashraj Darandale</h1>
+        <p>Babhaleshwar | darandaleyash2@gmail.com | +91 9359314719</p>
+        <p><a href="https://www.linkedin.com/in/yashraj-darandale" target="_blank">LinkedIn</a> | <a href="https://github.com/yashraj1137" target="_blank">GitHub</a></p>
+    </header>
+    
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Innovative Computer Engineering student passionate about technology and futuristic software development.</p>
+        </section>
+        
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <p><strong>Sanjivani College of Engineering, Kopargaon</strong> - B.Tech in Computer Science (GPA: 6.1)</p>
+            <p><strong>Nathaji Patil Mhaske Jr. College, Babhaleshwar</strong> - HSC Science (79.00%)</p>
+            <p><strong>Saint Alphonsa English School, Sambhajinagar</strong> - SSC (75.60%)</p>
+        </section>
+        
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <h3>An Auction System</h3>
+            <p>Developed a scalable, secure, and user-friendly online auction platform maximizing revenue and ensuring trust.</p>
+            <p><strong>Tools Used:</strong> HTML, CSS, JavaScript, MySQL, RESTful APIs</p>
+            
+            <h3>House Price Prediction</h3>
+            <p>Developed a machine learning model for accurate house price prediction, improving market transparency.</p>
+            <p><strong>Tools Used:</strong> Pandas, NumPy, Scikit-learn, Matplotlib, Jupyter Notebook</p>
+            
+            <h3>Dog Breed Classification using CNN</h3>
+            <p>Developed a deep learning-based system for dog breed classification to enhance pet care services.</p>
+            <p><strong>Tools Used:</strong> Python, Pre-trained Models: Inception, Xception</p>
+        </section>
+        
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <p><strong>Technical Languages:</strong> Java, SQL, HTML, CSS, Python, SAP ABAP</p>
+            <p><strong>Soft Skills:</strong> Consistency, Team Work, Problem Solving, Quick Learner, Leadership, Communication</p>
+        </section>
+        
+        <section class="section" id="extra-curricular">
+            <h2>Extra Curricular</h2>
+            <p><strong>Sports:</strong> Baseball, Cricket, Athletics</p>
+            <p><strong>Hobbies:</strong> Trekking, Travelling, Watching Movies</p>
+            <p><strong>Certificates:</strong> 1st Position in Cricket, Carrom; Intercollegiate Baseball Winner (2nd Year), Runner Up (3rd Year)</p>
+        </section>
+        
+        <section class="section" id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
